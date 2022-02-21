@@ -1,0 +1,38 @@
+#frame {
+  display: flex;
+  flex-direction: column;
+}
+
+#top {
+  display: flex;
+  text-align: center;
+  background-color: lemonchiffon;
+}
+#logo {
+  justify-content: center;
+  margin-left: 2em;
+  margin-top: 2em;
+  margin-right: 2em;
+  position: relative;
+  max-height: 10vh;
+  max-width: 10vw;
+}
+.header {
+  width: 90vw;
+  height: 20vh;
+  text-align: center;
+  justify-content: center;
+}
+#main {
+  display: flex;
+  flex-direction: column;
+}
+#menu {
+  background-color: darkkhaki;
+  text-align: center;
+}
+
+#footer {
+  text-align: center;
+  background-color: lemonchiffon;
+}
